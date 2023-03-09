@@ -1,6 +1,5 @@
 import {
   collection,
-  component,
   config,
   fields,
   LocalConfig,
@@ -31,7 +30,7 @@ export default config({
           label: "Slug",
           validation: { length: { min: 4 } },
         }),
-        description: fields.text({ label: "Description" }),
+        description: fields.text({ label: "Description", multiline: true }),
       },
     }),
   },

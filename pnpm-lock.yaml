@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@keystatic/core': ^0.0.57
+  '@keystatic/core': ^0.0.63
   '@keystatic/next': ^0.0.4
   '@types/node': 18.15.0
   '@types/react': ^18.0.26
@@ -11,9 +11,8 @@ specifiers:
   typescript: ^4.9.4
 
 dependencies:
-  '@keystatic/core': 0.0.57_biqbaboplfbrettd7655fr4n2y
-  '@keystatic/next': 0.0.4_saqz25buzdprifmwj26ylgjkcq
-  '@types/react': 18.0.28
+  '@keystatic/core': 0.0.63_biqbaboplfbrettd7655fr4n2y
+  '@keystatic/next': 0.0.4_cajb22szplwq5nh7zzv3r2qzwm
   next: 13.2.3_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -21,6 +20,7 @@ dependencies:
 
 devDependencies:
   '@types/node': 18.15.0
+  '@types/react': 18.0.28
 
 packages:
 
@@ -273,8 +273,8 @@ packages:
       '@sinclair/typebox': 0.25.24
     dev: false
 
-  /@keystatic/core/0.0.57_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-35fFNDYit/LAZu/rEAYBhQuDQn4LAxLzzihiuaFHz5Ht/8zglkrGywZ3LtCTCCiXrQptqU+guhz2+mD7p6edLw==}
+  /@keystatic/core/0.0.63_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-uWz5TYRj/gIDxNezC0ZrQU1HcCV5/MJn3B/6CJ12BvRQ0P2EyQCmgTz7u8saGCggagAC8M+K0mLP4od9YMyCqg==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
@@ -368,7 +368,7 @@ packages:
       - supports-color
     dev: false
 
-  /@keystatic/next/0.0.4_saqz25buzdprifmwj26ylgjkcq:
+  /@keystatic/next/0.0.4_cajb22szplwq5nh7zzv3r2qzwm:
     resolution: {integrity: sha512-ZET1vEl0P6k3O/Fxvr+idqKbxqwNPadQmBCabR5/8D7KQPZScRCERglhIz17wjO/SWEiNh+jLfvZVhNqxMYz/Q==}
     peerDependencies:
       '@keystatic/core': '*'
@@ -377,7 +377,7 @@ packages:
       react-dom: ^18.2.0
     dependencies:
       '@babel/runtime': 7.21.0
-      '@keystatic/core': 0.0.57_biqbaboplfbrettd7655fr4n2y
+      '@keystatic/core': 0.0.63_biqbaboplfbrettd7655fr4n2y
       '@types/react': 18.0.28
       next: 13.2.3_biqbaboplfbrettd7655fr4n2y
       react: 18.2.0
@@ -1693,7 +1693,6 @@ packages:
 
   /@types/prop-types/15.7.5:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
-    dev: false
 
   /@types/react/18.0.28:
     resolution: {integrity: sha512-RD0ivG1kEztNBdoAK7lekI9M+azSnitIn85h4iOiaLjaTrMjzslhaqCGaI4IyCJ1RljWiLCEu4jyrLLgqxBTew==}
@@ -1701,11 +1700,9 @@ packages:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
       csstype: 3.1.1
-    dev: false
 
   /@types/scheduler/0.16.2:
     resolution: {integrity: sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==}
-    dev: false
 
   /@types/unist/2.0.6:
     resolution: {integrity: sha512-PBjIUxZHOuj0R15/xuwJYjFi+KZdNFrehocChv4g5hu6aFroHue8m0lBP0POdK2nKzbw0cgV1mws8+V/JAcEkQ==}
@@ -2759,7 +2756,6 @@ packages:
 
   /csstype/3.1.1:
     resolution: {integrity: sha512-DJR/VvkAvSZW9bTouZue2sSxDwdTN92uHjqeKVm+0dAqdfNykRzQ95tay8aXMBAAPpUiq4Qcug2L7neoRh2Egw==}
-    dev: false
 
   /debug/4.3.4:
     resolution: {integrity: sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==}
