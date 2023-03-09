@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@keystatic/core': ^0.0.57
   '@keystatic/next': ^0.0.4
+  '@types/node': 18.15.0
   '@types/react': ^18.0.26
   next: ^13.1.1
   react: ^18.2.0
@@ -17,6 +18,9 @@ dependencies:
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   typescript: 4.9.5
+
+devDependencies:
+  '@types/node': 18.15.0
 
 packages:
 
@@ -1678,6 +1682,10 @@ packages:
   /@types/node/16.11.13:
     resolution: {integrity: sha512-eUXZzHLHoZqj1frtUetNkUetYoJ6X55UmrVnFD4DMhVeAmwLjniZhtBmsRiemQh4uq4G3vUra/Ws/hs9vEvL3Q==}
     dev: false
+
+  /@types/node/18.15.0:
+    resolution: {integrity: sha512-z6nr0TTEOBGkzLGmbypWOGnpSpSIBorEhC4L+4HeQ2iezKCi4f77kyslRwvHeNitymGQ+oFyIWGP96l/DPSV9w==}
+    dev: true
 
   /@types/parse-json/4.0.0:
     resolution: {integrity: sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==}
