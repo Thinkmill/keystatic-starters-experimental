@@ -20,7 +20,7 @@ const storage: LocalConfig["storage"] | GitHubConfig["storage"] =
 export default config({
   storage,
   collections: {
-    posts: collection({
+    experiments: collection({
       label: "Experiments",
       path: "/*/",
       slugField: "slug",
